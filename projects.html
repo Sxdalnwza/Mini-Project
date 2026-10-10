@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- ส่วนหัวเว็บไซต์และเมนูนำทาง -->
     <header>
       <nav class="navbar">
         <div class="logo">MyPortfolio</div>
@@ -20,6 +21,7 @@
     </header>
 
     <main class="container">
+      <!-- ส่วนแนะนำรายการผลงาน -->
       <section>
         <h1>ผลงานและโครงงาน (Projects)</h1>
         <h2>รายการผลงาน</h2>
@@ -29,9 +31,9 @@
         </p>
 
         <div class="card-grid">
-          <!-- ผลงานที่ 1: ระบบ Pets01-03 -->
+          <!-- ผลงานที่ 1: เว็บไซต์แสดงรายการสัตว์เลี้ยง -->
           <article class="card">
-            <!-- หากไฟล์ในเครื่องเป็น .png ให้เปลี่ยนเป็น project1.png -->
+            <!-- ภาพตัวอย่างของผลงาน -->
             <img
               src="images/webcoursework.png"
               alt="ระบบแสดงรายการสัตว์เลี้ยง Pets01-03"
@@ -39,31 +41,15 @@
             <h3>1. ระบบแสดงรายการสัตว์เลี้ยง</h3>
             <p>
               <strong>คำอธิบายผลงาน:</strong>
-              เว็บไซต์แสดงข้อมูลสัตว์เลี้ยงแยกหมวดหมู่ (สุนัข, แมว, นก, ปลา,
-              สัตว์เลี้ยงขนาดเล็ก)
-              พัฒนาขึ้นในรายวิชาการพัฒนาเว็บไซต์เพื่อฝึกปฏิบัติการสร้างเว็บหลายหน้าและการจัด
-              Layout ด้วย CSS
+              เว็บไซต์แสดงข้อมูลสัตว์เลี้ยงแยกหมวดหมู่ พัฒนาขึ้นเพื่อฝึกสร้าง
+              เว็บไซต์หลายหน้าและจัด Layout ด้วย CSS
             </p>
             <p>
               <strong>หน้าที่รับผิดชอบ:</strong>
-              ออกแบบโครงสร้างหน้าเว็บ เขียน HTML และ CSS รวมถึงจัด Layout
-              ของเว็บไซต์
+              ออกแบบโครงสร้างหน้าเว็บและจัด Layout ด้วย HTML และ CSS
             </p>
 
-            <p><strong>เครื่องมือและเทคโนโลยีที่ใช้:</strong></p>
-            <ul class="info-list">
-              <li>
-                <strong>โครงสร้างหน้าเว็บ:</strong> HTML5 (Semantic Elements)
-              </li>
-              <li>
-                <strong>การจัดรูปแบบ:</strong> External CSS (CSS Box Model,
-                Flexbox)
-              </li>
-              <li><strong>เครื่องมือพัฒนา:</strong> Visual Studio Code</li>
-              <li>
-                <strong>การจัดการเวอร์ชัน:</strong> Git & GitHub (GitHub Pages)
-              </li>
-            </ul>
+            <p><strong>เทคโนโลยีที่ใช้:</strong> HTML5, CSS และ GitHub Pages</p>
 
             <a
               href="https://sxdalnwza.github.io/Web-Development-Course/Pets03/"
@@ -73,7 +59,7 @@
             >
           </article>
 
-          <!-- ผลงานที่ 2: ระบบขอเวรพยาบาล (ตึกอายุรกรรม 45 ปี ชั้น 1) -->
+          <!-- ผลงานที่ 2: ระบบขอเวรเจ้าหน้าที่พยาบาล -->
           <article class="card">
             <img
               src="images/requestingshifts.png"
@@ -81,39 +67,22 @@
             />
             <h3>2. ระบบขอเวรเจ้าหน้าที่พยาบาล</h3>
             <p>
-              <strong>คำอธิบายผลงาน:</strong> เว็บแอปพลิเคชันรูปแบบ Single Page
-              Application (SPA)
-              สำหรับให้เจ้าหน้าที่พยาบาลส่งคำขอเวรและวันหยุดรายเดือน
-              มีระบบตรวจสอบโควตาคงเหลือรายบุคคล และติดตามสถานะคำขอแบบเรียลไทม์
+              <strong>คำอธิบายผลงาน:</strong>
+              เว็บแอปพลิเคชันสำหรับให้เจ้าหน้าที่ พยาบาลส่งคำขอเวรและวันหยุด
+              พร้อมตรวจสอบโควตาและสถานะคำขอ
             </p>
             <p>
-              <strong>หน้าที่รับผิดชอบ:</strong> พัฒนาระบบเองทั้งหมดทุกส่วน
-              (Frontend, ลอจิกตรวจสอบโควตา และเชื่อมต่อฐานข้อมูล)
+              <strong>หน้าที่รับผิดชอบ:</strong> พัฒนาระบบทั้งหมดด้วยตนเอง
+              ตั้งแต่การออกแบบระบบ พัฒนาส่วนติดต่อผู้ใช้ ระบบตรวจสอบโควตา
+              และการเชื่อมต่อฐานข้อมูล
             </p>
 
-            <p><strong>เครื่องมือและเทคโนโลยีที่ใช้:</strong></p>
-            <ul class="info-list">
-              <li>
-                <strong>Frontend:</strong> HTML5, Vanilla JavaScript (DOM
-                Manipulation)
-              </li>
-              <li><strong>CSS Framework:</strong> Tailwind CSS</li>
-              <li>
-                <strong>Libraries:</strong> SweetAlert2 (หน้าต่างแจ้งเตือนแบบ
-                Pop-up)
-              </li>
-              <li>
-                <strong>Backend:</strong> Google Apps Script
-                (ประมวลผลลอจิกโควตา)
-              </li>
-              <li><strong>Database:</strong> Google Sheets</li>
-              <li>
-                <strong>การออกแบบระบบ:</strong> เอกสาร SRS, Use Case & Class
-                Diagram
-              </li>
-            </ul>
+            <p>
+              <strong>เทคโนโลยีที่ใช้:</strong> HTML5, JavaScript, Tailwind CSS,
+              SweetAlert2, Google Apps Script และ Google Sheets
+            </p>
 
-            <!-- นำลิงก์เว็บจริงมาใส่แทนเครื่องหมาย # -->
+            <!-- ปุ่มเปิดระบบขอเวรสำหรับดูผลงานจริง -->
             <a
               href="https://script.google.com/macros/s/AKfycbwt-O5i7dsY_ovUESiSXwnWENOPcPKEIup1Mx0_uMUyUKZ5CGdqnpB1neFmmkHIhky4/exec"
               target="_blank"
@@ -131,39 +100,21 @@
             <h3>3. ระบบขอเวรและจัดตารางเวรเจ้าหน้าที่พยาบาล</h3>
             <p>
               <strong>คำอธิบายผลงาน:</strong>
-              ระบบบริหารจัดการตารางเวรรายเดือนแบบรวม แสดงภาพรวมเวร
-              (เช้า-บ่าย-ดึก) ของเจ้าหน้าที่ทุกคนในรูปแบบปฏิทินรายเดือน
-              มีระบบตรวจสอบเงื่อนไขความล้าของพยาบาล
+              ระบบบริหารจัดการตารางเวรรายเดือน แสดงภาพรวมเวรของเจ้าหน้าที่
+              พร้อมตรวจสอบเงื่อนไขการจัดเวร
             </p>
             <p>
-              <strong>หน้าที่รับผิดชอบ:</strong> พัฒนาระบบเองทั้งหมด
-              (อัลกอริทึมจัดตารางเวร, ระบบ Export ข้อมูล และย้ายระบบฐานข้อมูลสู่
-              Supabase)
+              <strong>หน้าที่รับผิดชอบ:</strong> พัฒนาระบบทั้งหมดด้วยตนเอง
+              ตั้งแต่การออกแบบระบบ พัฒนาอัลกอริทึมจัดตารางเวร ระบบส่งออกข้อมูล
+              และการเชื่อมต่อฐานข้อมูล
             </p>
 
-            <p><strong>เครื่องมือและเทคโนโลยีที่ใช้:</strong></p>
-            <ul class="info-list">
-              <li><strong>Frontend:</strong> HTML5, Vanilla JavaScript</li>
-              <li><strong>CSS Framework:</strong> Tailwind CSS</li>
-              <li>
-                <strong>Libraries:</strong>
-                <ul>
-                  <li>SweetAlert2 (ระบบแจ้งเตือน)</li>
-                  <li>Chart.js (แสดงกราฟสรุปยอดเวร)</li>
-                  <li>SheetJS (ส่งออกไฟล์ Excel)</li>
-                  <li>jsPDF (ส่งออกตารางเวรเป็น PDF)</li>
-                </ul>
-              </li>
-              <li><strong>Backend & Logic:</strong> Google Apps Script</li>
-              <li>
-                <strong>Database:</strong> Supabase (PostgreSQL) / Google Sheets
-              </li>
-              <li>
-                <strong>เครื่องมือและการควบคุม:</strong> VS Code, Git & GitHub
-              </li>
-            </ul>
+            <p>
+              <strong>เทคโนโลยีที่ใช้:</strong> HTML5, JavaScript, Tailwind CSS,
+              Google Apps Script, Supabase, SheetJS และ jsPDF
+            </p>
 
-            <!-- นำลิงก์เว็บจริงมาใส่แทนเครื่องหมาย # -->
+            <!-- ปุ่มเปิดระบบจัดตารางเวรสำหรับดูผลงานจริง -->
             <a
               href="https://script.google.com/macros/s/AKfycby0e6_0mb_m0PIVBAIz0Yhlx4SNZVqQM5blaPzlWo0n1fvug5AywseIm8m1eVZ-FHnX/exec"
               target="_blank"
@@ -175,8 +126,9 @@
       </section>
     </main>
 
+    <!-- ส่วนท้ายเว็บไซต์ -->
     <footer>
-      <p>&copy; 2026 ปวีณ์กร ศรีสุข - Software Engineering, NPRU.</p>
+      <p>&copy; 2026 ปวีณ์กร ศรีสุข - Software Engineering NPRU</p>
     </footer>
   </body>
 </html>
